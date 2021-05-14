@@ -1,0 +1,34 @@
+{
+    "name": "deepdark-azure",
+    "displayName": "DeepDark-Azure",
+    "description": "Copied from VS Code Dark Default, but made background pure black",
+    "publisher": "AAC",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.39.0",
+        "azdata": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "DeepDark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DeepDark-color-theme.json"
+            },
+            {
+                "label": "DeepDark HighContrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DeepDark-color-theme2.json"
+            }
+        ]
+    },
+    "extensionDependencies": [],
+    "extensionKind": [
+        "ui",
+        "workspace"
+    ],
+    "extensionPack": []
+}
